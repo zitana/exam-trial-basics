@@ -13,7 +13,7 @@ public class Seconds {
   }
   
   public static List<Integer> everySecondElement (List<Integer> originalList) {
-    List <Integer> secondList = new List<>();
+    List<Integer> secondList = new List<>();
     
     for (int i = 1; i < originalList.size(); i +=2 ) {
       secondList.add(originalList.get(i));
