@@ -30,10 +30,9 @@ public class CountAs {
           }
         }
       }
-  
     } catch (IOException e) {
       System.out.println("An error happened: file could not be read");
     }
-    return numberOfA + 1;
+    return numberOfA;
   }
 }
