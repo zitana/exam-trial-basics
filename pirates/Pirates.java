@@ -30,4 +30,16 @@ public class PirateCounter{
     // - have wooden leg and
     // - have more than 15 gold
   }
+  
+  public List<String> selectPirates(List<Pirate> pirates) {
+    List<String> richPirates = new ArrayList<String>();
+    
+    for (Pirate pirate : pirates) {
+      if (pirate.hasWoodenLeg && pirate.gold > 15) {
+        richPirates.add(pirate.name);
+      }
+    }
+    return richPirates;
+  }
+  
 }
