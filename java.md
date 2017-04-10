@@ -32,4 +32,10 @@ The application is accepted if:
 ## 5. Question time! (~15 mins) [2p]
 
 ### How can you generate a random number? [2p]
-#### Your answer: [add your answer here]
+#### Your answer: 
+I know two ways to generate a random number in java. The first is the Math.random() function, which we first need to import to our class. This function generates a number between zero and one, so for example if we want a random integer from 0 to 9 we need to type in the following: (int)(Math.random() * 10); It is important to convert to an integer only after we had multiplied our Math.random number with our range. More precisely it could be described as following:
+(int)(Math.random() * ((maxValue - minValue) + 1) + minValue);
+The other option is to use the Random class:
+Random rand = new Random(); 
+int ourRandomNumber = rand.nextInt(10);
+This will generate a number between 0 and 9, as well.
