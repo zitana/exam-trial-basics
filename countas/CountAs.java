@@ -19,12 +19,22 @@ public class CountAs {
   
   public static int countAs(String filename) {
     Path filePath = Paths.get(filename);
+    int numberOfA = 0;
+    
     try {
       List<String> lines = Files.readAllLines(filePath);
-      
-      
+      for (int i = 0; i < lines.size(); i++) {
+        char[] letters = lines.get(i).toCharArray();
+        for (int j = 0;  j < letters.length; j++) {
+          if (letters[j] == 'a') {
+            numberOfA++;
+          }
+        }
+      }
+  
     } catch (IOException e) {
       System.out.println("An error happened");
     }
+    return numberOfA;
   }
 }
