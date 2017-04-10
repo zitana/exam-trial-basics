@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af24c8de-378b-4f7d-a8e4-f8ad6b7f1548" name="Default" comment="" />
+    <list default="true" id="2b1619bc-e922-4ad2-8c8a-c7ec23b8b033" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +12,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Pirates.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pirates.java">
+      <file leaf-file-name="Box.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Box.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="119">
+              <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding>
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,8 +35,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Pirates.java" />
-        <option value="$PROJECT_DIR$/../box/Box.java" />
+        <option value="$PROJECT_DIR$/Box.java" />
       </list>
     </option>
   </component>
@@ -64,29 +66,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pirates" />
+              <option name="myItemId" value="box" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pirates" />
+              <option name="myItemId" value="box" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../box" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,17 +196,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="af24c8de-378b-4f7d-a8e4-f8ad6b7f1548" name="Default" comment="" />
-      <created>1491831469337</created>
+      <changelist id="2b1619bc-e922-4ad2-8c8a-c7ec23b8b033" name="Default" comment="" />
+      <created>1491833494949</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1491831469337</updated>
-      <workItem from="1491831470838" duration="3370000" />
+      <updated>1491833494949</updated>
+      <workItem from="1491833496467" duration="1443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3370000" />
+    <option name="totallyTimeSpent" value="1443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -251,22 +253,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../box/Box.java">
+    <entry file="file://$PROJECT_DIR$/Box.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
-            <element signature="e#638#639#0" expanded="false" />
-            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pirates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>

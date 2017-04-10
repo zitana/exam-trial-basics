@@ -9,17 +9,14 @@ public class Seconds {
     // example: [1, 2, 3, 4, 5] should produce [2, 4] - print this result
     List<Integer> listOfIntegers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
     System.out.println(everySecondElement(listOfIntegers));
-    
   }
   
-  public static List<Integer> everySecondElement (List<Integer> originalList) {
-    List<Integer> secondList = new List<>();
+  public static List<Integer> everySecondElement(List<Integer> originalList) {
+    List<Integer> secondList = new ArrayList<>();
     
-    for (int i = 1; i < originalList.size(); i +=2 ) {
+    for (int i = 1; i < originalList.size(); i += 2) {
       secondList.add(originalList.get(i));
     }
     return secondList;
   }
-  
-  
 }
